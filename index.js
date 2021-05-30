@@ -20,7 +20,6 @@ const getQuotes = async () => {
     //   json data
     jsonData = await data.json();
     getRandomQuote();
-    console.log(jsonData[0]);
   } catch (error) {}
 };
 
